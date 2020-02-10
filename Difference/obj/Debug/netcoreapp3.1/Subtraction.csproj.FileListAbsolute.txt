@@ -1,0 +1,3 @@
+C:\Users\ShrutiWarrier\Source\Repos\Calculator\Difference\obj\Debug\netcoreapp3.1\Subtraction.csprojAssemblyReference.cache
+C:\Users\ShrutiWarrier\Source\Repos\Calculator\Difference\obj\Debug\netcoreapp3.1\Subtraction.AssemblyInfoInputs.cache
+C:\Users\ShrutiWarrier\Source\Repos\Calculator\Difference\obj\Debug\netcoreapp3.1\Subtraction.AssemblyInfo.cs
