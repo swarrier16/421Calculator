@@ -97,5 +97,27 @@ namespace StatisticsCalculatorTests
             var result = statsCalc.MeanDeviation(DataPoints);
             Assert.AreEqual(23.75, result);
         }
+
+        [TestMethod]
+        public void SampleRandomSampleTest()
+        {
+            decimal sample = 10M;
+            decimal population = 100M;
+
+            PopulationStats statsCalc = new PopulationStats();
+            var result = statsCalc.SimpleRandomSample(sample, population);
+            Assert.AreEqual(0.10M, result);
+        }
+
+        [TestMethod]
+        public void SystematicSamplingTest()
+        {
+            decimal sample = 10M;
+            decimal population = 100M;
+
+            PopulationStats statsCalc = new PopulationStats();
+            var result = statsCalc.SystematicSampling(sample, population);
+            Assert.AreEqual(10M, result);
+        }
     }
 }

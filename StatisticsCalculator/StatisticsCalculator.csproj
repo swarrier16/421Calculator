@@ -5,9 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BasicCalculator\BasicCalculator.csproj" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <ProjectReference Include="..\MathOperations\MathOperations.csproj" />
+    <ProjectReference Include="..\BasicCalculator\BasicCalculator.csproj" />
   </ItemGroup>
 </Project>
